@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +9,86 @@
 <body>
     <header>
         <h1>
-            Podstawowe zasady testowania
+            Narzędzia do testów automatycznych
         </h1>
         <nav>
             <ul>
-                <li><a href="index.html">Zasady testowania</a></li>
-                <li><a href="index3.html">Narzędzia do testów automatycznych</a></li>
-                <li><a href="index2.html">O mnie</a></li>
+                <li><a href="index.html">Narzędzia do testów automatycznych</a></li>
+                <li><a href="index2.html">Zasady testowania</a></li>
+                <li><a href="index3.html">O mnie</a></li>
             </ul>
         </nav>
     </header>
+    <img src="https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Biurko z komputerem" width="600px">
     <main>
-        <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Programowanie">
+        <article>
+            <h2>Walidator HTML</h2>
+            <p>
+                Narzędzie przeznaczone jest do automatycznego sprawdzenia poprawności znaczników używanych w językach XHTML, HTML oraz HTML 5.
+                Narzędzie analizuje, czy znaczniki na wybranej stronie są zgodne ze specyfikacją konkretnej wersji języka HTML
+                Bada pojedynczą podstronę.
+                Pewnym utrudnieniem podczas pracy może być specjalistyczny, techniczny język, który opisuje znalezione błędy.
+                Walidator HTML dostępny jest tylko w wersji anglojęzycznej.
+            </p>
+         </article>
          <article>
+            <h2>WAVE</h2>
+            <p>
+                Dostępny jest w dwóch wersjach:
+                <ol>
+                <li>jako narzędzie online;</li>
+                <li>jako rozszerzenie do przeglądarki internetowej.</li>
+                </ol>
+                <br>
+                Obie wersje mają zbliżoną funkcjonalność. Z pierwszej opcji możesz korzystać w każdej przeglądarce internetowej. Drugą możesz analizować strony z ograniczonym dostępem (na przykład gdy wymagają logowania) oraz kody przetworzone przez JavaScript.
+                <br>
+                WAVE to jedno z najpopularniejszych narzędzi, które cechuje prostota i intuicyjność użytkowania. W wizualny sposób pokazuje błędy w kodzie (na przykład brak atrybutu alt z tekstem alternatywnym dla elementu graficznego, linki i przyciski bez żadnej treści) oraz błędy, które dotyczą kontrastu i struktury nagłówkowej,a także ich interpretację.
+            </p>
+         </article>
+         <article>
+            <h2>Accessibility Insights for Web</h2>
+            <p>
+                Narzędzie służy do automatycznej analizy dostępności cyfrowej.
+
+                Dostępne jest jako:
+                <ol>
+                <li>rozszerzenie do przeglądarek Chrome i Edge;</li>
+                <li>oddzielny program dla komputerów z systemem Windows.</li>
+                </ol>
+                <br>
+                Podobnie jak WAVE, umożliwia badanie poprawności kodu HTML strony. Możesz też nim śledzić kolejność nawigacji za pomocą klawiatury, czy możliwość wyłączenia kolorów i prezentacji treści w skali szarości.
+                Wizualna prezentacja wyników ułatwia znajdowanie błędów oraz ich interpretację. Podpowiedzi i przykłady prawidłowego kodu pomagają wdrożyć poprawek.
+                Accessibility Insights for Web dostępny jest tylko w wersji anglojęzycznej.
+            </p>
+         </article>
+         <article>
+            <h2>ARC Toolkit</h2>
+            <p>
+                ARC Toolkit - twórcą jest organizacja TPGi (wcześniej znana jako The Paciello Group, TPG; teraz: TPG Interactive).
+                Jest rozszerzeniem do przeglądarki Chrome. Gdy je zainstalujesz, będzie jednym z elementów panelu programisty.
+                Narzędziem możesz analizować między innymi kontrast treści do tła, kolejność nawigacji za pomocą klawiatury, prawidłową kolejność nagłówków (które tworzą strukturę danej podstrony) czy unikatowość identyfikatorów HTML (id).
+                <br>
+                ARC Toolkit dostępny jest tylko w wersji anglojęzycznej.
+            </p>
+         </article>
+         <article>
+            <h2>Colour Contrast Analyser (CCA)</h2>
+            <p>Służy do sprawdzania kontrastu kolorów.
+
+                Programem:
+                <ol>
+                <li>sprawdzisz współczynnik kontrastu dwóch kolorów, które określasz za pomocą ręcznie wprowadzonych formatów kolorów CSS, suwaka RGB lub próbnika kolorów;</li>
+                <li>sprawdzisz zgodność współczynnika kontrastu z wytycznymi o dostępności treści internetowych WCAG;</li>
+                <li>przetestujesz postrzeganie danego zestawu kolorów przez osoby z zaburzeniami postrzegania barw.</li>
+                </ol>
+                <br>
+                Program dostępny jest w wersji anglojęzycznej dla systemów operacyjnych Windows oraz Mac OS.</p>
+         </article>
+         <p>Treść pochodzi ze strony: <a href="https://www.gov.pl/web/dostepnosc-cyfrowa/jak-automatycznie-testowac-dostepnosc-cyfrowa-stron-internetowych">gov.pl</a></p>
+    </main>
+    <aside>
+        <h2>Kilka zasad testowania</h2>
+        <article>
             <h2>Testowanie ujawnia usterki, ale nie może dowieść ich braku</h2>
             <p>Testowanie może wykazać obecność defektów, ale nie może dowieść, że oprogramowanie jest od nich wolne. Tym samym testowanie zmniejsza prawdopodobieństwo, że w oprogramowaniu pozostaną niewykryte defekty, ale sam fakt niewykrycia defektów nie stanowi dowodu poprawności działania oprogramowania.</p>
          </article>
@@ -33,26 +100,8 @@
             <h2>Wczesne testowanie oszczędza czas i pieniądze</h2>
             <p>Aby wcześnie wykryć defekty, należy rozpocząć testowanie statyczne i dynamiczne na jak najwcześniejszym etapie cyklu życia oprogramowania. Wczesne testowanie jest niekiedy nazywane „przesunięciem w lewo” (ang. shift left). Wykonywanie testów na wczesnym etapie cyklu życia oprogramowania pozwala ograniczyć lub wyeliminować kosztowne zmiany.</p>
          </article>
-         <article>
-            <h2>Kumulowanie się defektów</h2>
-            <p>Zwykle większość defektów wykrytych podczas testowania przed przekazaniem oprogramowania do eksploatacji lub większość awarii występujących w fazie eksploatacji występuje lub ma swoje źródło w niewielkiej liczbie modułów. W rezultacie przewidywane skupiska defektów i skupiska defektów faktycznie zaobserwowane na etapie testowania lub eksploatacji są ważnym elementem analizy ryzyka, którą przeprowadza się w celu odpowiedniego ukierunkowania wysiłków związanych z testowaniem (o czym wspomniano w zasadzie nr 2.).</p>
-         </article>
-         <article>
-            <h2>Paradoks pestycydów</h2>
-            <p>Ciągłe powtarzanie tych samych testów prowadzi do sytuacji, w której przestają one w pewnym momencie wykrywać nowe defekty. Aby móc wykrywać nowe defekty, może być konieczne zmodyfikowanie dotychczasowych testów i danych testowych, a także napisanie nowych testów. Niezmieniane testy tracą z czasem zdolność do wykrywania defektów, podobnie jak pestycydy po pewnym czasie nie są zdolne do eliminowania szkodników. W niektórych przypadkach — takich jak automatyczne testowanie regresji — paradoks pestycydów może być korzystny, ponieważ pozwala potwierdzić, że liczba defektów związanych z regresją jest niewielka.</p>
-         </article>
-         <article>
-            <h2>Testowanie zależy od kontekstu</h2>
-            <p>Testowanie wykonuje się w różny sposób w różnych kontekstach. Na przykład oprogramowanie sterujące systemami przemysłowymi, które jest krytyczne ze względów bezpieczeństwa, testuje się inaczej niż aplikację mobilną sklepu internetowego. Innym przykładem może być odmienny sposób przeprowadzania testów w projektach zwinnych i w tych prowadzonych zgodnie z modelem sekwencyjnym cyklu życia.</p>
-         </article>
-         <article>
-            <h2>Przekonanie o braku błędów jest błędem</h2>
-            <p>Niektóre organizacje oczekują, że testerzy będą w stanie uruchomić wszystkie możliwe testy i wykryć wszystkie możliwe defekty, ale powyższe zasady (odpowiednio nr 2 i 1) pokazują, że jest to niemożliwe. Co więcej, błędnym jest przekonanie, że samo znalezienie i naprawienie dużej liczby defektów zapewni pomyślne wdrożenie systemu. Na przykład bardzo dokładne testowanie wszystkich wyspecyfikowanych wymagań i naprawienie wszystkich znalezionych defektów wciąż może nas nie uchronić od zbudowania systemu trudnego w obsłudze, który nie spełni wymagań i oczekiwań użytkowników lub będzie miał gorsze parametry od konkurencyjnych rozwiązań.
-
-                Tekst (prawie) w całości pochodzi z sylabusa ISTQB 2018. Zostały z niego usunięte nagłówki. Choć jako źródło wiedzy sylabus może być postrzegany jako zbyt "ciężki" i "toporny", w małych dawkach jest to bardzo wartościowe kompendium wiedzy.</p>
-         </article>
-         <p>Treść pochodzi ze strony: <a href="http://testerzy.pl">testerzy.pl</a></p>
-    </main>
+         <a href="index2.html">Kliknij tutaj by czytaj więcej</a>
+    </aside>
     <footer>
         &copy; Adam Perlikowski 5ti
     </footer>

@@ -4,105 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
     <header>
-        <h1>
-            Podstawowe zasady testowania
-        </h1>
+        <h1>O mnie</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Zasady testowania</a></li>
-                <li><a href="index3.html">Narzędzia do testów automatycznych</a></li>
-                <li><a href="index2.html">O mnie</a></li>
+                <li><a href="index.html">Narzędzia do testów automatycznych</a></li>
+                <li><a href="index2.html">Zasady testowania</a></li>
+                <li><a href="index3.html">O mnie</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <article>
-            <h2>Walidator HTML</h2>
-            <p>
-                Narzędzie przeznaczone jest do automatycznego sprawdzenia poprawności znaczników używanych w językach XHTML, HTML oraz HTML 5.
-                Narzędzie analizuje, czy znaczniki na wybranej stronie są zgodne ze specyfikacją konkretnej wersji języka HTML
-                Bada pojedynczą podstronę.
-                Pewnym utrudnieniem podczas pracy może być specjalistyczny, techniczny język, który opisuje znalezione błędy.
-                Walidator HTML dostępny jest tylko w wersji anglojęzycznej.
-            </p>
-         </article>
-         <article>
-            <h2>WAVE</h2>
-            <p>
-                Dostępny jest w dwóch wersjach:
-                <ol>
-                <li>jako narzędzie online;</li>
-                <li>jako rozszerzenie do przeglądarki internetowej.</li>
-                </ol>
-                <br>
-                Obie wersje mają zbliżoną funkcjonalność. Z pierwszej opcji możesz korzystać w każdej przeglądarce internetowej. Drugą możesz analizować strony z ograniczonym dostępem (na przykład gdy wymagają logowania) oraz kody przetworzone przez JavaScript.
-                <br>
-                WAVE to jedno z najpopularniejszych narzędzi, które cechuje prostota i intuicyjność użytkowania. W wizualny sposób pokazuje błędy w kodzie (na przykład brak atrybutu alt z tekstem alternatywnym dla elementu graficznego, linki i przyciski bez żadnej treści) oraz błędy, które dotyczą kontrastu i struktury nagłówkowej,a także ich interpretację.
-            </p>
-         </article>
-         <article>
-            <h2>Accessibility Insights for Web</h2>
-            <p>
-                Narzędzie służy do automatycznej analizy dostępności cyfrowej.
-
-                Dostępne jest jako:
-                <ol>
-                <li>rozszerzenie do przeglądarek Chrome i Edge;</li>
-                <li>oddzielny program dla komputerów z systemem Windows.</li>
-                </ol>
-                <br>
-                Podobnie jak WAVE, umożliwia badanie poprawności kodu HTML strony. Możesz też nim śledzić kolejność nawigacji za pomocą klawiatury, czy możliwość wyłączenia kolorów i prezentacji treści w skali szarości.
-                Wizualna prezentacja wyników ułatwia znajdowanie błędów oraz ich interpretację. Podpowiedzi i przykłady prawidłowego kodu pomagają wdrożyć poprawek.
-                Accessibility Insights for Web dostępny jest tylko w wersji anglojęzycznej.
-            </p>
-         </article>
-         <article>
-            <h2>ARC Toolkit</h2>
-            <p>
-                ARC Toolkit - twórcą jest organizacja TPGi (wcześniej znana jako The Paciello Group, TPG; teraz: TPG Interactive).
-                Jest rozszerzeniem do przeglądarki Chrome. Gdy je zainstalujesz, będzie jednym z elementów panelu programisty.
-                Narzędziem możesz analizować między innymi kontrast treści do tła, kolejność nawigacji za pomocą klawiatury, prawidłową kolejność nagłówków (które tworzą strukturę danej podstrony) czy unikatowość identyfikatorów HTML (id).
-                <br>
-                ARC Toolkit dostępny jest tylko w wersji anglojęzycznej.
-            </p>
-         </article>
-         <article>
-            <h2>Colour Contrast Analyser (CCA)</h2>
-            <p>Służy do sprawdzania kontrastu kolorów.
-
-                Programem:
-                <ol>
-                <li>sprawdzisz współczynnik kontrastu dwóch kolorów, które określasz za pomocą ręcznie wprowadzonych formatów kolorów CSS, suwaka RGB lub próbnika kolorów;</li>
-                <li>sprawdzisz zgodność współczynnika kontrastu z wytycznymi o dostępności treści internetowych WCAG;</li>
-                <li>przetestujesz postrzeganie danego zestawu kolorów przez osoby z zaburzeniami postrzegania barw.</li>
-                </ol>
-                <br>
-                Program dostępny jest w wersji anglojęzycznej dla systemów operacyjnych Windows oraz Mac OS.</p>
-         </article>
-         <p>Treść pochodzi ze strony: <a href="https://www.gov.pl/web/dostepnosc-cyfrowa/jak-automatycznie-testowac-dostepnosc-cyfrowa-stron-internetowych">gov.pl</a></p>
+        <img src="https://cdn-icons-png.freepik.com/256/1077/1077114.png?semt=ais_hybrid" alt="Ikona osoby" width="250px">
+        <h2>Stronę wykonał Adam Perlikowski z klasy 5ti</h2>
     </main>
-    <aside>
-        <h2>Kilka zasad testowania</h2>
-        <article>
-            <h2>Testowanie ujawnia usterki, ale nie może dowieść ich braku</h2>
-            <p>Testowanie może wykazać obecność defektów, ale nie może dowieść, że oprogramowanie jest od nich wolne. Tym samym testowanie zmniejsza prawdopodobieństwo, że w oprogramowaniu pozostaną niewykryte defekty, ale sam fakt niewykrycia defektów nie stanowi dowodu poprawności działania oprogramowania.</p>
-         </article>
-         <article>
-            <h2>Testowanie gruntowne jest niemożliwe</h2>
-            <p>Przetestowanie wszystkiego (tj. wszystkich kombinacji danych wejściowych i warunków wstępnych) jest możliwe tylko w najprostszych przypadkach. W związku z tym, zamiast podejmować próbę testowania gruntownego, należy odpowiednio ukierunkować wysiłki związane z testowaniem na zastosowanie analizy ryzyka, technik testowania i priorytetyzacji.</p>
-         </article>
-         <article>
-            <h2>Wczesne testowanie oszczędza czas i pieniądze</h2>
-            <p>Aby wcześnie wykryć defekty, należy rozpocząć testowanie statyczne i dynamiczne na jak najwcześniejszym etapie cyklu życia oprogramowania. Wczesne testowanie jest niekiedy nazywane „przesunięciem w lewo” (ang. shift left). Wykonywanie testów na wczesnym etapie cyklu życia oprogramowania pozwala ograniczyć lub wyeliminować kosztowne zmiany.</p>
-         </article>
-         <a href="index.html">Kliknij tutaj by czytaj więcej</a>
-    </aside>
     <footer>
-        &copy; Adam Perlikowski 5ti
+        <footer>
+            &copy; Adam Perlikowski 5ti
+        </footer>
     </footer>
 </body>
 </html>

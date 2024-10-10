@@ -49,28 +49,15 @@ nav a:hover {
 
 main {
     min-height: 700px;
-    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main a:hover {
-    color: #00246B;
-}
-
 img {
-    width: 400px;
+    margin: 2em;
+    width: 200px;
     padding: 10px;
-}
-
-article {
-    width: 800px;
-    background-color: #CADCFC;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 20px;
 }
 
 h2 {
