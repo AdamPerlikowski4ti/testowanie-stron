@@ -25,10 +25,11 @@ nav ul {
 }
 
 nav li {
-    width: 8rem;
+    width: 12rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 nav a {
