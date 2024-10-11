@@ -26,10 +26,16 @@ nav ul {
 
 nav li {
     width: 12rem;
+    margin: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+nav li:hover {
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 nav a {
@@ -60,7 +66,7 @@ main a:hover {
 }
 
 img {
-    width: 400px;
+    width: 600px;
     padding: 10px;
 }
 
