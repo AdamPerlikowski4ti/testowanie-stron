@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
@@ -13,7 +13,7 @@ header {
     width: 100%;
     background-color: #00246B;
     color: #fff;
-    padding: 20px;
+    padding: 1em;
 }
 
 h1 {
@@ -25,7 +25,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 2em;
 }
 
 nav li {
@@ -70,7 +70,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 10px;
+    padding: 2em;
 }
 
 .photo img {
@@ -82,14 +82,14 @@ main article {
     background-color: #CADCFC;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 h2 {
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin-bottom: 2em;
 }
 
 a {
@@ -99,6 +99,7 @@ a {
 
 main a:hover {
     color: #00246B;
+    font-weight: bolder;
 }
 
 aside {
@@ -113,17 +114,18 @@ aside article {
     background-color: #CADCFC;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 aside a:hover {
     color: #00246B;
+    font-weight: bolder;
 }
 
 footer {
-    width: 1000%;
+    width: 100%;
     background-color: #00246B;
     color: #fff;
     text-align: center;
